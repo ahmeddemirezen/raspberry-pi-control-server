@@ -27,12 +27,14 @@ gpio.output(26,gpio.LOW)
 gpio.output(19,gpio.HIGH)
 pwm_s.setDuty(2,0)
 
+#Server bilgileri(Çalıştırmadan önce bilgileri güncelleyin)
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 host="192.168.1.198"
 port=8585
 buf=1024
 
 s.connect((host,port))
+
 while True:
     data=s.recv(buf)
     if data=="komut":
