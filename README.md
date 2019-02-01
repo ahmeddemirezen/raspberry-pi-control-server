@@ -1,11 +1,11 @@
 <h1>
   Raspberry Pi Control Server
   </h1>
-
+<h3>English</h3>
 <h2>
   Features
   </h2>  
-<h3>English</h3> 
+ 
 <p>
   <li>You can connect to a local network and communicate with the raspberry pi on the server.
   </li>
@@ -24,10 +24,11 @@ Set your local ip address to "host" in the "Ip panel" window and set to 8585 in 
 Now he came to make a few changes over the raspberry pi. The first thing we do here is to make a correction as host = "(server local ip)" from the client.py file.</li>
   <li>You can now run the client.py file. Enjoy remote control. :)</li>
 </p>
+<h3>Türkçe</h3> 
 <h2>
   Özellikler
   </h2>  
-<h3>Türkçe</h3>  
+ 
 <p>
   <li>Yerel bir ağa bağlanıp sunucu üzerinden raspberry pi ile iletişim kurabilirsiniz.
   </li>
