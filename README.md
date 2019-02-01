@@ -18,8 +18,14 @@ Directions For Use//Kullanım Talimatları
 <p>
   <li>First we open the server.py file from the computer we will manage.//İlk olarak server.py dosayasını yöneteceğimiz bilgisayardan açıyoruz.</li>
   <li>The user name and password will be asked by default, the user name "admin" password is also "123".//Karşımıza kullanıcı adı ve şifre sorulacak varsayılan olarak kullanıcı adı "admin" şifre de "123". </li>
+  <code>def kontrol(self):
+        if (self.e1.get() == "ahmed" and self.e2.get() == "528"):  
+            print "\nGiris Basarili"
+            self.kontrol_birimi = 1
+            pencere.destroy()
+        else:
+            print "\nKullanici Adi veya Sifre Hatali !!!"</code>
   <li>Test</li>
   <li></li>
   <li></li>
 </p>
-                                                                                                                                              
