@@ -1,6 +1,7 @@
 #!usr/bin/env python
 # -*- coding:utf-8 -*-
 # _*_ coding:cp1254 _*_
+#Ahmed Demirezen Feezx1
 import socket
 from Tkinter import *
 
@@ -173,7 +174,7 @@ class AdminPanel:
         
 
     def kontrol(self):
-        if (self.e1.get() == "ahmed" and self.e2.get() == "528"):  
+        if (self.e1.get() == "admin" and self.e2.get() == "123"):  
             print "\nGiris Basarili"
             self.kontrol_birimi = 1
             pencere.destroy()
