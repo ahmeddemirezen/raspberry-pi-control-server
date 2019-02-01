@@ -233,6 +233,7 @@ c = AdminPanel(pencere)
 pencere.mainloop()
 
 pencere2=Tk()
+pencere2.title("Ip Panel")
 if (c.kontrol_birimi == 1):
     g = baglanti(pencere2)
     g.ana_panel_kontrol=1
