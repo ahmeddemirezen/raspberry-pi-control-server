@@ -5,7 +5,7 @@
 <h2>
   Features
   </h2>  
-  
+<h3>English</h3> 
 <p>
   <li>You can connect to a local network and communicate with the raspberry pi on the server.
   </li>
@@ -27,7 +27,7 @@ Now he came to make a few changes over the raspberry pi. The first thing we do h
 <h2>
   Özellikler
   </h2>  
-  
+<h3>Türkçe</h3>  
 <p>
   <li>Yerel bir ağa bağlanıp sunucu üzerinden raspberry pi ile iletişim kurabilirsiniz.
   </li>
