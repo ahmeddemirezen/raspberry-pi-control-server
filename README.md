@@ -1,50 +1,180 @@
-<h1>
-  Raspberry Pi Control Server
-  </h1>
-<h3>English</h3>
-<h2>
-  Features
-  </h2>  
- 
-<p>
-  <li>You can connect to a local network and communicate with the raspberry pi on the server.
-  </li>
-  <li>The source code is clearly written and changes can be made by the user.
-  </li>
-  </p>
-<h2>
-Directions For Use
-</h2>
-<p>
-  <li>First we open the server.py file from the computer we will manage.</li>
-  <li>The user name and password will be asked by default, the user name "admin" password is also "123".</li>
-  <li>
-Set your local ip address to "host" in the "Ip panel" window and set to 8585 in the "port". Note: Port can be changed as per request.</li>
-  <li>
-Now he came to make a few changes over the raspberry pi. The first thing we do here is to make a correction as host = "(server local ip)" from the client.py file.</li>
-  <li>You can now run the client.py file. Enjoy remote control. :)</li>
-</p>
-<h3>Türkçe</h3> 
-<h2>
-  Özellikler
-  </h2>  
- 
-<p>
-  <li>Yerel bir ağa bağlanıp sunucu üzerinden raspberry pi ile iletişim kurabilirsiniz.
-  </li>
-  <li>Kaynak kodlardaki açık şekilde yazılmış olup değişiklikler kullanıcı tarafından yapılabilir.
-  </li>
-  </p>
-<h2>
-Kullanım Talimatları
-</h2>
-<p>
-  <li>İlk olarak server.py dosayasını yöneteceğimiz bilgisayardan açıyoruz.</li>
-  <li>Karşımıza kullanıcı adı ve şifre sorulacak varsayılan olarak kullanıcı adı "admin" şifre de "123". </li>
-  <li>
-"İp panel" penceresinden "host" kısmına local ip adresinizi "port" olarak da 8585 olarak ayarlayın. Not: Port isteğe göre değiştirilebilir.</li>
-  <li>
-Şimdi ise raspberry pi üzerinden bir kaç değişiklik yapmaya geldi. Burada ilk yapacağımız işlem client.py dosyasının içinden host="(server local ip)" olarak bir düzeltme yapmak.</li>
-  <li>Artık client.py dosyasını çalıştırabilirsiniz. Uzaktan kontrolun keyfine bakın. :)</li>
-</p>
+# Raspberry Pi Control Server
+
+## English
+
+Server that provides access to the Raspberry pi card via wifi. With this server you can easily control your raspberr pi card. You can customize the codes according to your request or according to your job. You can also make changes easily thanks to clearly written code.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
+
+# Raspberry Pi Control Server
+
+## Türkçe
+
+Raspberry pi kartına wifi üzerinden erişim imkanı tanıyan sunucu. Bu sunucu ile raspberr pi kartınızı kolay bir şekilde kontrol edebilirsiniz. Kodları isteğinize göre veya kullanıcağınız işe göre özelleştirebilirsiniz. Anlaşılır bir şekilde yazılmış kodlar sayesinde de değişiklikleri kolay bir şekilde yapabilirsiniz. 
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
