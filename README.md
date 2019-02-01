@@ -8,83 +8,49 @@ Server that provides access to the Raspberry pi card via wifi. With this server 
 
 ### Prerequisites
 
-The master server and the raspberry pi card must have the "Socket" library installed. To download this library, simply enter the following code into the command line.
+The necessary items for the server are available in the file, but you can install the libraries that are used against the possible situation as follows.
 
 ```
 pip install socket
+
+pip install python-handler-socket
+
+pip install RPi.GPIO
+
+pip install smbus2
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+For installation, the administrator will first turn on the server from the computer. Here the user name and password will come up as the default user name: "admin" password: "123" is the form.
+After logging in successfully, we will ask you to enter host and port information. You must enter the local ip address of the server computer as a host. By default, the port address is set to "8585".
 
+Example:
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+Host=192.168.1.54
+port=8585
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+After completing these operations, the order will be made via the raspberry pi card. In this section, we need to make small changes on the codes. Replace the IP address of the "client.py" file against the host variable.
 
 ```
-Give an example
+host="192.168.1.54"
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
+And at the end of the process, you can now run the "client.py" file through the terminal.
 ```
-Give an example
+python /directory/client.py
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+If you received a successful message from the server computer, everything went fine.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Ahmed Demirezen** - *Initial work* - [feezx1](https://github.com/feezx1)
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thank you to Kutalmış Köroğlu for helping me customize the program.
 
 # Raspberry Pi Control Server
 
@@ -96,82 +62,47 @@ Raspberry pi kartına wifi üzerinden erişim imkanı tanıyan sunucu. Bu sunucu
 
 ### Ön Şartlar
 
-Ana sunucunun ve raspberry pi kartında "Socket" kütüphanesinin kurulu olması gerekir. Bu kütüphaneyi indirmek için aşağıdaki kodu komut satırına girmeniz yeterli olacaktır.
+Sunucu için gerekli öğeler dosyanın içerisinde mevcut ama olası duruma karşı kullanılan kütüphanelerin kurulumunu aşağıdaki gibi yapabilirsiniz.
 
 ```
 pip install socket
+
+pip install python-handler-socket
+
+pip install RPi.GPIO
+
+pip install smbus2
 ```
 
 ### Kurulum
 
-A step by step series of examples that tell 
-you how to get a development env running
+Kurulum için ilk olarak yönetici bilgisayardan sunucu açmak olacaktır. Burada karşınıza kullanıcı adı ve şifre çıkacaktır bunlar varsayılan olarak kullanıcı adı:"admin" şifre:"123" şeklindedir.
+Başarılı bir şekilde giriş yaptıktan sonra bizden host ve port bilgilerini girmemizi isteyecektir. Burada host olarak sunucu bilgisayarın yerel ip adresini girmeniz gerekmektedir. Varsayılan olarak port adresi "8585" olarak ayarlıdır bunu isteğinize göre yapılandırabilirsiniz.
 
-Say what the step will be
-
+Örneğin:
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+Host=192.168.1.54
+port=8585
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Bu işlemleri tamamladıktan sonra sıra raspberry pi kartı üzerinden yapılacak olan ayarlara. Bu kısımda kodlar üzerinde küçük değişiklik yapmamız gerekmekte. "client.py" dosyasındaki host değişkenin karşısında yazan ip adresini sunucu ip adresi ile değiştirmek.
 
-## Testleri yapmak
-
-Explain how to run the automated tests for this system
-
-### Testleri uçtan uca ayırın
-
-Explain what these tests test and why
-
+Örneğin:
 ```
-Give an example
+host="192.168.1.54"
 ```
 
-### Ve kodlama tarzı testleri
-
-Explain what these tests test and why
-
+Ve sonunda işlemler tamam artık "client.py" dosyasını terminal üzerinden çalıştırabilirsiniz.
 ```
-Give an example
+python /dizin/client.py 
 ```
-
-## Yayılma
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Katkı
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Sürüm
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Eğer sunucu bilgisayardan bağlantı başarılı şeklinde mesaj aldıysanız herşey yolunda gitmiş demektir.
 
 ## Yazarlar
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## Lisans
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Ahmed Demirezen** - *İlk İş* - [feezx1](https://github.com/feezx1)
 
 ## Emeği Geçenler
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Programı özelleştirmemde yardımcı olan Kutalmış Köroğlu'na Teşekkür ederim.
 
