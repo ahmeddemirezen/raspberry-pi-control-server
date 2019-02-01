@@ -22,11 +22,17 @@ pip install smbus2
 
 ### Installing
 
+The installation will first run the "server.py" file from the host.
 
-For installation, the administrator will first turn on the server from the computer. Here the user name and password will come up as the default user name: "admin" password: "123" is the form.
+```
+python /directory/server.py
+```
+
+Here the user name and password will come up as the default user name: "admin" password: "123" is the form.
 After logging in successfully, we will ask you to enter host and port information. You must enter the local ip address of the server computer as a host. By default, the port address is set to "8585".
 
 Example:
+
 ```
 Host=192.168.1.54
 port=8585
@@ -39,6 +45,7 @@ host="192.168.1.54"
 ```
 
 And at the end of the process, you can now run the "client.py" file through the terminal.
+
 ```
 python /directory/client.py
 ```
@@ -76,10 +83,17 @@ pip install smbus2
 
 ### Kurulum
 
-Kurulum için ilk olarak yönetici bilgisayardan sunucu açmak olacaktır. Burada karşınıza kullanıcı adı ve şifre çıkacaktır bunlar varsayılan olarak kullanıcı adı:"admin" şifre:"123" şeklindedir.
+Kurulum için ilk olarak ana bilgisayardan "server.py" dosyasını çalıştırmak olacaktır.
+
+```
+python /dizin/server.py
+```
+
+Burada karşınıza kullanıcı adı ve şifre çıkacaktır bunlar varsayılan olarak kullanıcı adı:"admin" şifre:"123" şeklindedir.
 Başarılı bir şekilde giriş yaptıktan sonra bizden host ve port bilgilerini girmemizi isteyecektir. Burada host olarak sunucu bilgisayarın yerel ip adresini girmeniz gerekmektedir. Varsayılan olarak port adresi "8585" olarak ayarlıdır bunu isteğinize göre yapılandırabilirsiniz.
 
 Örneğin:
+
 ```
 Host=192.168.1.54
 port=8585
@@ -88,14 +102,17 @@ port=8585
 Bu işlemleri tamamladıktan sonra sıra raspberry pi kartı üzerinden yapılacak olan ayarlara. Bu kısımda kodlar üzerinde küçük değişiklik yapmamız gerekmekte. "client.py" dosyasındaki host değişkenin karşısında yazan ip adresini sunucu ip adresi ile değiştirmek.
 
 Örneğin:
+
 ```
 host="192.168.1.54"
 ```
 
 Ve sonunda işlemler tamam artık "client.py" dosyasını terminal üzerinden çalıştırabilirsiniz.
+
 ```
 python /dizin/client.py 
 ```
+
 Eğer sunucu bilgisayardan bağlantı başarılı şeklinde mesaj aldıysanız herşey yolunda gitmiş demektir.
 
 ## Yazarlar
