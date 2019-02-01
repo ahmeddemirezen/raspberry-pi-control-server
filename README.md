@@ -56,7 +56,7 @@ If you received a successful message from the server computer, everything went f
 
 ## Türkçe
 
-Raspberry pi kartına wifi üzerinden erişim imkanı tanıyan sunucu. Bu sunucu ile raspberr pi kartınızı kolay bir şekilde kontrol edebilirsiniz. Kodları isteğinize göre veya kullanıcağınız işe göre özelleştirebilirsiniz. Anlaşılır bir şekilde yazılmış kodlar sayesinde de değişiklikleri kolay bir şekilde yapabilirsiniz. 
+Raspberry pi kartına wifi üzerinden erişim imkanı tanıyan sunucu. Bu sunucu ile raspberry pi kartınızı kolay bir şekilde kontrol edebilirsiniz. Kodları isteğinize göre veya kullanıcağınız işe göre özelleştirebilirsiniz. Anlaşılır bir şekilde yazılmış kodlar sayesinde de değişiklikleri kolay bir şekilde yapabilirsiniz. 
 
 ## Kullanım Kılavuzu
 
