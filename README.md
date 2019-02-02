@@ -18,6 +18,8 @@ pip install python-handler-socket
 pip install RPi.GPIO
 
 pip install smbus2
+
+pip install PCA9685-driver
 ```
 
 ### Installing
@@ -79,6 +81,8 @@ pip install python-handler-socket
 pip install RPi.GPIO
 
 pip install smbus2
+
+pip install PCA9685-driver
 ```
 
 ### Kurulum
