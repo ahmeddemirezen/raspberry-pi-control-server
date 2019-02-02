@@ -57,7 +57,7 @@ If you received a successful message from the server computer, everything went f
 
 ## Acknowledgments
 
-* Thank you to Kutalmış Köroğlu for helping me customize the program.
+* Thanks to Kutalmış Köroğlu for helping me customize the program.
 
 # Raspberry Pi Control Server
 
