@@ -2,7 +2,7 @@
 
 ## English
 
-Server that provides access to the Raspberry pi card via wifi. With this server you can easily control your raspberr pi card. You can customize the codes according to your request or according to your job. You can also make changes easily thanks to clearly written code.
+Server that provides access to the Raspberry pi card via wifi. With this server you can easily control your raspberry pi card. You can customize the codes according to your request or according to your job. You can also make changes easily thanks to clearly written code.
 
 ## Getting Started
 
